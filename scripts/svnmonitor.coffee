@@ -8,7 +8,7 @@ module.exports = (robot) ->
 
     robot.logger.info "Subversion revision #{revision} committed."
 
-    room = "26768_front-end_team"
+    room = 26768_front-end_team
     message = "There has been a subversion commit to #{repo}. \nRevision #{revision} committed by #{username}:\n#{log}"
 
     robot.messageRoom room, message
