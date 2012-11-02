@@ -1,4 +1,9 @@
 module.exports = (robot) ->
+
+  robot.messageRoom: (room, strings...) ->
+    user = { room: room, reply_to: room }
+    @adapter.send user, strings...
+
   robot.router.post "/hubot/svn", (req, res) ->
 
     revision = req.body.revision

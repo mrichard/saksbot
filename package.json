@@ -15,7 +15,7 @@
   },
 
   "dependencies": {
-    "hubot-hipchat": "https://github.com/mrichard/hubot-hipchat.git",
+    "hubot-hipchat": ">= 1.1.1",
     "hubot": "2.3.2",
     "hubot-scripts": ">= 2.1.0",
     "optparse": "1.0.3"
