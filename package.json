@@ -15,6 +15,7 @@
   },
 
   "dependencies": {
+    "redis": "0.8.1",
     "hubot-hipchat": ">= 1.1.1",
     "hubot": "2.3.2",
     "hubot-scripts": ">= 2.1.0",
