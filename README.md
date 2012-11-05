@@ -1,3 +1,6 @@
+# FIXES:
+hipchat.coffee line 9 - if not user.reply_to then user.reply_to = user.room
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
