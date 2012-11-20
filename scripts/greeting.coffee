@@ -41,5 +41,8 @@ module.exports = (robot) ->
     myMessage = response.random greets
     response.send myMessage(response)
 
+  robot.hear /javascript/i, (response) ->
+    response.send "I love JavaScript"
+
 
 
